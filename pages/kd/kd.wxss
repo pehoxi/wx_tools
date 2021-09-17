@@ -1,0 +1,21 @@
+.wrapper{
+  padding: 10px;
+}
+.dh{
+  padding:5px;
+  margin: 0 auto;
+  width: 300px;
+  height: 30px;
+  border: blue 1px solid;
+}
+.btn{
+  margin-top: 10px;
+
+}
+.kdxx{
+  color: rgb(61, 223, 61);
+}
+.clsj{
+  font-size: 14px;
+  color: #999999;
+}

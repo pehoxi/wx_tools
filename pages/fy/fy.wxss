@@ -1,0 +1,17 @@
+/* pages/fy/fy.wxss */
+.wrapper{
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  height: 667px;
+}
+input{
+  width: 60px;
+  border-bottom: 1px solid #cccccc;
+}
+.box{
+  display: flex;
+  justify-content: space-around;
+}

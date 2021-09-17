@@ -1,0 +1,116 @@
+.body{
+  background-color: #F5F5F5;
+}
+.wrapper{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    height: 660px;
+    width: 340px;
+    /* border: 1px red solid; */
+    margin: 0 auto;
+
+}
+.wrapper_top{
+   height: 14%;
+   width: 100%;
+   position: relative;
+   /* border:black solid 1px; */
+}
+.wra_top_left{
+  height: 100%;
+  width: 100px;
+   float: right;
+   /* border: pink 1px solid; */
+}
+.wra_top_right{
+   height:100%;
+   width: 200px;
+   /* border: black 1px solid; */
+   float: right;
+   text-align: center;
+}
+.wra_top_right text:nth-of-type(1){
+  font-weight: bolder;
+}
+.wra_top_right view:nth-of-type(1){
+  font-size: 8px;
+  color: #999999;
+}
+.wra_top_right view:nth-of-type(1) view{
+  font-size: 10px;
+  color: #000000;
+  font-weight: bolder;
+}
+.wra_top_right view:nth-of-type(2){
+   color: #C26CBA;
+   font-weight: bolder;
+}
+.wra_top_right view:nth-of-type(3){
+     font-size: 30px;
+     color: #E03897;
+     font-weight: bolder;
+}
+.wra_top_right view text{
+   font-size: 16px;
+   color:#0988FE;
+}
+  .wra_top_right view image{
+    width: 20px;
+    height: 20px;
+    padding-left: 5px;
+  }
+  .wra_top_left image{
+      height: 80px;
+      width: 80px;
+  }
+  .wra_top_left{
+    color: #999999;
+    position: relative;
+  }
+  .wra_top_left view{
+    position: absolute;
+    left: 5px;
+    top: 60px;
+  }
+  .wra_bot_li{
+    padding: 5px;
+    height: 50px;
+  }
+  .wra_bot_li_top  image{
+    width: 14px;
+    height: 14px;
+  }
+  .wra_bot_li_top{
+    font-size: 14px;
+   font-weight: bolder;
+  }
+  .wra_bot_li_top text{
+    padding-left:10px;
+    color: #0988FE;
+  }
+  .wrapper_hr{
+    margin-top: 5px;
+    height: 3rpx;
+    background-color:#999999;
+  }
+
+  .wrapper_center{
+    height: 16%;
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+  .home-swiper {
+    width: 98%;
+   height: 100px;
+  }
+  
+  .slide-image {
+    width: 100%;
+    height: 100px;
+  }
+.wrapper_center>view{
+  padding: 5px;
+}
+.wrapper_center>view{
+
+}

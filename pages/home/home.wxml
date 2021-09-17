@@ -1,0 +1,36 @@
+
+<view class="warrper">
+    <view class="w_img" bindtap="goTian">
+    
+       <image bindtap="tq" src="../img/天气.png"></image>
+          <text>天气</text>
+    </view>
+    <view class="w_img" bindtap="goKd" >
+       <image src="../img/快递.png"></image>
+          <text>快递查询</text>
+    </view>
+    <view class="w_img" bindtap="goMusic">
+        <image src="../img/音乐.png"></image>
+          <text>音乐</text>
+    </view>
+    <view class="w_img" bindtap="goLj">
+       <image src="../img/垃圾分类.SVG.png"></image>
+          <text>垃圾分类</text>
+     </view>
+    <view class="w_img" bindtap="goJsq">
+        <image src="../img/计算器.png"></image>
+          <text>计算器</text>
+    </view>
+    <view class="w_img" bindtap="goFy"> 
+        <image src="../img/语言翻译.png"></image>
+          <text>翻译</text>
+    </view>
+    <view class="w_img" bindtap="goBd"> 
+    <image src="../img/榜单.png"></image>
+          <text>豆瓣榜单</text>
+    </view>
+    <view class="w_img" bindtap="dz">
+     <image src="{{dz}}"></image>
+          <text>点赞</text>
+          </view>
+</view>

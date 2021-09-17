@@ -1,0 +1,148 @@
+<view class="body">
+<view class="wrapper">
+  <view class="wrapper_top">
+   <view class="wra_top_left">
+   <image src="../img/按钮_关闭.png"></image>
+   <view>首页显示天气</view>
+  </view>
+   <view class="wra_top_right">
+    <view bindtap="city"> 
+    <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+    <view class="picker">
+      当前城市：{{region[0]}}，{{region[1]}}市，{{region[2]}}
+        </view>
+       </picker>
+     (点击城市可以切换)</view>
+    <view>更新时间：{{date}}</view>
+    <view>{{list.wendu}}°C <text>{{list.forecast[0].type}}</text>
+    <image src="../img/云.png"></image>
+    </view>
+    </view>
+  </view>
+
+
+
+  <view class="wrapper_center">
+  <view>
+    <swiper class="home-swiper" indicator-dots="true" 
+    autoplay="{{autoplay}}" interval="{{interval}}" 
+    duration="{{duration}}"
+    indicator-active-color = '#ff00ff'
+    next-margin="20px"
+    >
+
+      <swiper-item wx:for = "{{forecast}}">
+       <view>日期：{{item.date}}</view>
+       <view>温度: {{item.high}}到{{item.low}}之间</view>
+       <view>风力 ：{{item.fengli}}</view>
+       <view>风向 ：{{item.fengxiang}}</view>
+       <view>天气 ： {{item.type}}</view>
+      </swiper-item>
+     </swiper>
+  </view>
+  </view>
+
+  
+
+
+  <view class="wrapper_bottom">
+   <view class="wra_bot_li">
+
+
+    <view class="wra_bot_li_top">
+     
+      <image src="../img/爱心.png">
+      </image>
+      舒适度指数:<text>舒适</text>
+    </view>
+    <view class="wra_bot_li_bot">
+   {{list.ganmao}}
+    </view>
+       <view class="wrapper_hr"></view>
+   </view>
+   <view class="wra_bot_li">
+
+
+    <view class="wra_bot_li_top">
+     
+      <image src="../img/爱心.png">
+      </image>
+      舒适度指数:<text>舒适</text>
+    </view>
+    <view class="wra_bot_li_bot">
+    白天温度合适，狠适合出去游玩，多和家人朋友一起出去走走
+    也很不错，然后我就忘词了，凑字数
+    </view>
+       <view class="wrapper_hr"></view>
+   </view>
+
+  <view class="wra_bot_li">
+
+
+    <view class="wra_bot_li_top">
+     
+      <image src="../img/爱心.png">
+      </image>
+      舒适度指数:<text>舒适</text>
+    </view>
+    <view class="wra_bot_li_bot">
+    白天温度合适，狠适合出去游玩，多和家人朋友一起出去走走
+    也很不错，然后我就忘词了，凑字数
+    </view>
+       <view class="wrapper_hr"></view>
+   </view>
+
+  <view class="wra_bot_li">
+
+
+    <view class="wra_bot_li_top">
+     
+      <image src="../img/爱心.png">
+      </image>
+      舒适度指数:<text>舒适</text>
+    </view>
+    <view class="wra_bot_li_bot">
+    白天温度合适，狠适合出去游玩，多和家人朋友一起出去走走
+    也很不错，然后我就忘词了，凑字数
+    </view>
+       <view class="wrapper_hr"></view>
+   </view>
+
+  <view class="wra_bot_li">
+
+
+    <view class="wra_bot_li_top">
+     
+      <image src="../img/爱心.png">
+      </image>
+      舒适度指数:<text>舒适</text>
+    </view>
+    <view class="wra_bot_li_bot">
+    白天温度合适，狠适合出去游玩，多和家人朋友一起出去走走
+    也很不错，然后我就忘词了，凑字数
+    </view>
+       <view class="wrapper_hr"></view>
+   </view>
+
+  <view class="wra_bot_li">
+
+
+    <view class="wra_bot_li_top">
+     
+      <image src="../img/爱心.png">
+      </image>
+      舒适度指数:<text>舒适</text>
+    </view>
+    <view class="wra_bot_li_bot">
+    白天温度合适，狠适合出去游玩，多和家人朋友一起出去走走
+    也很不错，然后我就忘词了，凑字数
+    </view>
+      
+   </view>
+
+
+
+  
+  </view>
+</view>
+</view>

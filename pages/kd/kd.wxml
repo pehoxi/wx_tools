@@ -1,0 +1,16 @@
+<view class="wrapper">
+  <input class="dh" placeholder="输入订单号"
+  bindinput="dh"
+  />
+  <button type="primary" class="btn"
+  bindtap="getKd"
+  >查询</button>
+ 
+   <view class="message">
+    <view>快递类型：{{company}}</view>
+    <view>签收状态：{{status}}</view>
+    <view >最新快递信息 :<view class="kdxx"> {{info[0].context}}</view></view>
+    <view class="clsj">{{info[0].time}}</view>
+   </view>
+
+</view>

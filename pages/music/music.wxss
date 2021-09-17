@@ -1,0 +1,146 @@
+/* pages/music/music.wxss */
+.wrapper{
+  padding: 10px;
+}
+form{
+  margin: 10px;
+  
+}
+input{
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #cccccc;
+  width: 300px;
+}
+.msg{
+  color: red;
+}
+.music{
+  background-color: #e9dfdf;
+  padding-top: 15px;
+}
+.music>input{
+  border: 1px solid #e9dfdf;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 15px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.music_gqtj{
+  padding: 0 15px;
+}
+.music_gqtj_top{
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.music_gqtj_top>text{
+  font-size: 12px;
+  color: #999999;  
+}
+.music_gqtj_center{
+  position: relative;
+  margin-bottom: 10px;
+}
+.music_msg{
+  /* border:1px red solid; */
+}
+.music_msg>image{
+   width: 60px;
+   height: 60px;
+   border-radius: 10px;
+   /* border: 1px red solid; */
+}
+.music_msg_one{
+  position: absolute;
+  left: 80px;
+  top: 10px;
+}
+.music_msg_yjt{
+  position: absolute;
+  right: 15px;
+  top:15px;
+  color: #999999;
+  font-size: 20px;
+}
+.hot_swiper{
+  height: 130px;
+  width: 100px;
+  /* border:1px red solid; */
+}
+.hot_swiper image{
+   height: 100px;
+   width: 100px;
+}
+.hot_swiper text{
+  font-size: 12px;
+}
+
+.music_video{
+  height: 50px;
+  width: 100%;
+  /* border : 1px solid red; */
+  position: fixed;
+  left: 0px;
+  bottom : 0px;
+  background-color: #e9dfdf;
+}
+.music_video view image{
+  height: 40px;
+  width: 40px;
+  /* border:1px red solid */
+}
+.music_video_left{
+  position: absolute;
+  left: 50px;
+  top:5px;
+}
+.music_video_right{
+  position: absolute;
+  right: 50px;
+  top:5px;
+}
+.video{
+  background-color: #e9dfdf;
+  height: 667px;
+  position: relative;
+}
+
+
+
+.music_play{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 1px red solid;
+  position: relative;
+  left: 40px;
+  top: 100px;
+}
+.music_play image{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+.music_btn{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  /* border: 1px solid black; */
+  position: absolute;
+  left: 160px;
+  top: 220px;
+}
+.music_btn image{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.inputMusic{
+  /* border: 1px solid #999999; */
+  position: absolute;
+  top: 10px;
+  left: 40px;
+}

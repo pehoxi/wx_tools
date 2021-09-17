@@ -1,0 +1,107 @@
+<view class="wrapper" > 
+<view class="lj_top" bindtap="win"> 
+ <image src="../img/垃圾.jpg"></image>
+ <input placeholder='搜索垃圾查看对应分类'
+ bindinput="lj" class="ljfl"
+  ></input>
+</view>
+ <view class="lj_center"  bindtap="win">
+   <view>热门搜索关键词</view>
+   <view>
+   <button id="龙虾" class="btn" bindtap="dj">龙虾</button>
+   <button id="牛奶盒" class="btn" bindtap="dj" >牛奶盒</button>
+   <button id="过期药片" class="btn" bindtap="dj" >过期药片</button>
+   <button id="主板" class="btn" bindtap="dj" >主板</button>
+   <button  id="茶" class="btn" bindtap="dj">茶</button>
+   <button id="火机" class="btn" bindtap="dj">火机</button>
+   <button id="可乐瓶" class="btn" bindtap="dj">可乐瓶</button>
+   <button id="面膜" class="btn" bindtap="dj">面膜</button>
+   </view>
+ </view>
+ <view class="lj_center lj_cen_hh"
+ style="display:{{bottomHidden1}}"
+  bindtap="win"
+ >
+ 名称：
+   <view>
+   {{name}}
+   </view>
+类型:
+    <view>
+   {{sort}}
+    </view>
+ </view>
+
+<view class="lj_bottom">
+    <view class="lj_bot_one" id="0" bindtap="ljjs_dj">
+     <image src="../img/有害垃圾.png"></image>
+    </view>
+
+    <view class="lj_bot_two"  id="1" bindtap="ljjs_dj"> 
+     <image src="../img/可回收物.png"></image>
+    </view>
+
+    <view class="lj_bot_three"  id="2" bindtap="ljjs_dj">
+     <image src="../img/湿垃圾.png"></image>
+    </view>
+
+    <view class="lj_bot_four"  id="3" bindtap="ljjs_dj">
+     <image src="../img/干垃圾.png"></image>
+    </view>
+
+</view>
+
+<view class="ljjs ljjs_one" 
+style="display:{{ljjsHideen[0]}}"
+
+>
+<image src="../img/有害垃圾.png"></image>
+<view>
+  分类投放有害垃圾时，应注意轻放。其中：废灯管
+  等易破损的有害垃圾应该连包装或包裹后投放；废弃药
+  品应连包装一并投放；杀虫剂等压力罐装容器，应排空
+  内容物后投放；
+</view>
+</view>
+
+<view class="ljjs ljjs_two" 
+style="display:{{ljjsHideen[1]}}"
+>
+<image src="../img/可回收物.png"></image>
+<view>
+  分类投放有害垃圾时，应注意轻放。其中：废灯管
+  等易破损的有害垃圾应该连包装或包裹后投放；废弃药
+  品应连包装一并投放；杀虫剂等压力罐装容器，应排空
+  内容物后投放；
+</view>
+</view>
+
+
+<view class="ljjs ljjs_three" 
+style="display:{{ljjsHideen[2]}}"
+>
+<image src="../img/湿垃圾.png"></image>
+<view>
+  分类投放有害垃圾时，应注意轻放。其中：废灯管
+  等易破损的有害垃圾应该连包装或包裹后投放；废弃药
+  品应连包装一并投放；杀虫剂等压力罐装容器，应排空
+  内容物后投放；
+</view>
+</view>
+
+
+<view class="ljjs ljjs_four" 
+style="display:{{ljjsHideen[3]}}"
+
+>
+<image src="../img/干垃圾.png"></image>
+<view>
+  分类投放有害垃圾时，应注意轻放。其中：废灯管
+  等易破损的有害垃圾应该连包装或包裹后投放；废弃药
+  品应连包装一并投放；杀虫剂等压力罐装容器，应排空
+  内容物后投放；
+</view>
+</view>
+
+
+</view>

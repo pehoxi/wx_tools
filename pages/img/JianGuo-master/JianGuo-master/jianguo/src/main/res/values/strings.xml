@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">坚果</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_official">文件预览</string>
+    <string name="title_activity_notice__information">通知详情</string>
+    <string name="title_activity_url">详情</string>
+    <string name="Test_text">啊偶。考试安排还没出来</string>
+    <string name="login_user">学号</string>
+    <string name="login_pass">密码</string>
+    <string name="login_checkcode">验证码</string>
+</resources>

@@ -1,0 +1,113 @@
+<view class="wrapper">
+    <view class="bd">上半年豆瓣电影排行榜</view>
+    <view class="top3">
+
+
+    <!-- 前三的电影 -->
+      <view class="top3_all">
+      <image 
+      style="height: 70px;width: 70px; margin-top:15px;"
+      class="top3_img1" src="{{hh.imgurl[1]}}"></image>
+      <view>{{hh.name[1]}}</view>
+      <view>{{hh.pingfen[1]}}</view>
+      </view>
+
+
+       <view class="top3_all">
+      <image
+      
+        class="top3_img2" src="{{hh.imgurl[0]}}"></image>
+      <view>{{hh.name[0]}}</view>
+      <view>{{hh.pingfen[0]}}</view>
+      </view>
+
+
+       <view class="top3_all">
+      <image  src="{{hh.imgurl[2]}}"
+      style="height: 60px;width: 60px; margin-top:20px;"
+      ></image>
+      <view>{{hh.name[2]}}</view>
+      <view>{{hh.pingfen[2]}}</view>
+      </view>
+
+
+     <!-- 榜单排名图片 -->
+    <image class="top3_img top3_img_one"
+    src="../img/top1.png"
+    ></image>
+    
+     <image class="top3_img top3_img_two"
+    src="../img/top2.png"
+    ></image>
+    
+     <image class="top3_img top3_img_three"
+    src="../img/top3.png"
+    ></image>
+    </view>
+ 
+
+  <view class="bottom">
+
+
+  <view class="bot_li">
+   <image src="{{hh.imgurl[3]}}"></image>
+   <view>第四名</view>
+   <view>{{hh.name[3]}}</view>
+   <view>{{hh.pingfen[3]}}</view>
+  </view>
+
+
+  <view class="bot_li">
+   <image src="{{hh.imgurl[4]}}"></image>
+   <view>第五名</view>
+   <view>{{hh.name[4]}}</view>
+   <view>{{hh.pingfen[4]}}</view>
+  </view>
+
+
+  <view class="bot_li">
+   <image src="{{hh.imgurl[5]}}"></image>
+   <view>第六名</view>
+   <view>{{hh.name[5]}}</view>
+   <view>{{hh.pingfen[5]}}</view>
+  </view>
+
+
+  <view class="bot_li">
+   <image src="{{hh.imgurl[6]}}"></image>
+   <view>第七名</view>
+   <view>{{hh.name[6]}}</view>
+   <view>{{hh.pingfen[6]}}</view>
+  </view>
+
+
+  <view class="bot_li">
+   <image src="{{hh.imgurl[7]}}"></image>
+   <view>第八名</view>
+   <view>{{hh.name[7]}}</view>
+   <view>{{hh.pingfen[7]}}</view>
+  </view>
+
+
+
+  <view class="bot_li">
+   <image src="{{hh.imgurl[8]}}"></image>
+   <view>第九名</view>
+   <view>{{hh.name[8]}}</view>
+   <view>{{hh.pingfen[8]}}</view>
+  </view>
+
+
+  <view class="bot_li">
+   <image src="{{hh.imgurl[9]}}"></image>
+   <view>第十名</view>
+   <view>{{hh.name[9]}}</view>
+   <view>{{hh.pingfen[9]}}</view>
+  </view>
+
+
+
+  </view>
+
+
+</view>

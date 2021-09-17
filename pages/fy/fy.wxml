@@ -1,0 +1,31 @@
+<!-- 头部，选择语言 -->
+<view class="wrapper">
+<form bindsubmit="trans">
+<view class="box">
+    <input name ="from" value="zh-cn"/>
+    <image src="../img/change.png"
+    style="width:30px;height:30px;"
+    ></image>
+    <input name ="to" value="en"/>
+    <image src="../img/右箭头.png"
+    style="width:30px;height:30px;"
+    ></image>
+    <input name ="type" value="google"/>
+</view>
+
+<!-- 原文 -->
+<view>
+原文
+  <textarea name = "text" style="border : 1px solid #cccccc">
+  
+  </textarea>
+</view>
+<!-- 译文 -->
+<view>
+  译文
+  <view style="width:300px;height:300px;border:1px solid #cccccc"> 
+    <rich-text name = "result" nodes= "{{result}}"  ></rich-text>
+  </view>
+</view>
+<button type="primary" size="mini" form-type="submit">翻译</button>
+</form></view>

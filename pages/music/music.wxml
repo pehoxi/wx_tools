@@ -1,0 +1,188 @@
+
+<view class="wrapper" style="display:{{display}}">
+<form bindsubmit="trans">
+<view>请输入网易云账号</view>
+ <input 
+ name="iphone" placeholder="请输入手机号">
+ </input>
+  <input name = "password" placeholder="请输入密码"
+   type="password"
+  >
+  </input>
+  <button type="primary" size="mini" 
+  form-type="submit"
+  >登录</button>
+<view class="msg">{{loginZt}}</view>
+
+</form></view>
+
+
+<!-- 歌曲主页-->
+<view class="wrapper1">
+<view class="music" style="display:{{mus_display}}">
+ 
+    <!-- 搜索框 -->
+     <input placeholder="播放音乐请点击右下角图标"></input>
+
+   <!-- 歌曲推荐 -->
+    <view class="music_gqtj">
+      <view class="music_gqtj_top">
+      歌曲推荐<text>更多></text>
+      </view>
+
+
+     <view class="music_gqtj_center" bindtap="start">
+          <view class="music_msg" id="1">
+            <image src="{{picUrl[0]}}"></image>
+          <view>
+          <view class="music_msg_one" >
+           <view >{{musicName[0]}}</view>
+           <view>{{zjName[0]}} · {{musicName[0]}}</view>
+           </view>
+           <view class="music_msg_yjt">></view>
+         </view>   
+        </view>       
+    </view>
+
+
+     <view class="music_gqtj_center" bindtap="start">
+          <view class="music_msg" id="1">
+            <image src="{{picUrl[1]}}"></image>
+          <view>
+          <view class="music_msg_one" >
+           <view >{{musicName[1]}}</view>
+           <view>{{zjName[1]}} · {{musicName[1]}}</view>
+           </view>
+           <view class="music_msg_yjt">></view>
+         </view>   
+        </view>       
+    </view>
+
+
+
+     <view class="music_gqtj_center" bindtap="start">
+          <view class="music_msg" id="1">
+            <image src="{{picUrl[2]}}"></image>
+          <view>
+          <view class="music_msg_one" >
+           <view >{{musicName[2]}}</view>
+           <view>{{zjName[2]}} · {{musicName[2]}}</view>
+           </view>
+           <view class="music_msg_yjt">></view>
+         </view>   
+        </view>       
+    </view>
+
+
+
+     <view class="music_gqtj_center" bindtap="start">
+          <view class="music_msg" id="1">
+            <image src="{{picUrl[3]}}"></image>
+          <view>
+          <view class="music_msg_one" >
+           <view >{{musicName[3]}}</view>
+           <view>{{zjName[3]}} · {{musicName[3]}}</view>
+           </view>
+           <view class="music_msg_yjt">></view>
+         </view>   
+        </view>       
+    </view>
+
+
+     <view class="music_gqtj_center" bindtap="start">
+          <view class="music_msg" id="1">
+            <image src="{{picUrl[1]}}"></image>
+          <view>
+          <view class="music_msg_one" >
+           <view >{{musicName[0]}}</view>
+           <view>{{zjName[0]}} · {{musicName[0]}}</view>
+           </view>
+           <view class="music_msg_yjt">></view>
+         </view>   
+        </view>       
+    </view>
+
+   <!-- 热门歌单 -->
+  <view class="music_hot">
+      <view class="music_gqtj_top">
+      热门歌单<text>更多></text>
+      </view>
+
+      <!-- 静态轮播图 -->
+     <view>
+       <swiper class="home-swiper"  next-margin="200px" >
+      <swiper-item>
+        <view class="hot_swiper">
+         <image src="{{hh.img[0]}}"></image>
+        <text>{{hh.gdjs[0]}}</text>
+        </view>
+      </swiper-item>
+
+  <swiper-item>
+        <view class="hot_swiper">
+         <image src="{{hh.img[1]}}"></image>
+        <text>{{hh.gdjs[1]}}</text>
+        </view>
+      </swiper-item>
+
+  <swiper-item>
+        <view class="hot_swiper">
+         <image src="{{hh.img[2]}}"></image>
+        <text>{{hh.gdjs[2]}}</text>
+        </view>
+      </swiper-item>
+
+  <swiper-item>
+        <view class="hot_swiper">
+         <image src="{{hh.img[3]}}"></image>
+        <text>{{hh.gdjs[3]}}</text>
+        </view>
+      </swiper-item>
+
+     </swiper>
+    </view> 
+    
+     </view>
+
+     
+   </view>
+     </view>  
+    <!-- 播放部分 -->
+    <view class="video" style="display:{{video_dis}}">     
+        <view class="inputMusic">
+            <input bindinput="inp_play_music"
+            placeholder="输入歌名后点击播放按钮"
+            
+            ></input>
+        </view>
+
+         <view class="music_play">
+         <image src="../img/demo2.jpg"></image>
+         </view>
+         <view class="music_btn" bindtap="musicPlay">
+              <image src="{{palyBtnImg}}"></image>
+         </view>
+         
+    </view>
+   
+
+
+
+   <!-- 底部选项卡 -->
+
+          <view class="music_video" style="display:{{dis_bot}}">
+            <view class="music_video_left"
+            bindtap="mvl2"
+            >
+              <image src="{{music_img}}"></image>
+            </view>  
+
+             <view class="music_video_right"
+              bindtap="mvl1"
+             >
+              <image src="{{music_video}}"></image>
+            </view>  
+           </view>
+</view>
+
+

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jianguo">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:name=".Cookie.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/nut_back"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activity_Start"
+            android:theme="@style/AppSplash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main.widget.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".news.widget.NewsDetailActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label=""
+            />
+        <activity
+            android:name=".Activity_Guide"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Notify.NotifyActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OA.View.OfficialActivity"
+            android:label="@string/title_activity_official"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OA.View.Notice_InformationActivity"
+            android:label="@string/title_activity_notice__information"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".common.URLActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+    </application>
+
+</manifest>

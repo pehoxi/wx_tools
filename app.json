@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/music/music",
+    "pages/movie/movie",
+    "pages/fy/fy",
+    "pages/jsq/jsq",
+    "pages/lj/lj",
+    "pages/kd/kd",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/tianQi/tianQi"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "实用小程序",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}
